@@ -15,7 +15,7 @@ function getCard() {
         {   
             let imageurl = data.cards[0].image;
             let img = document.createElement('img');
-            img.src = imageurl; 
+            img.setAttribute("src", imageurl);
             document.getElementById('card').appendChild(img);
         })
        
