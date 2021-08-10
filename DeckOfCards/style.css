@@ -1,0 +1,14 @@
+.bg { 
+    /* The image used */
+    background-image: url("img/background.jpg");
+  
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    
+    background-repeat: repeat-y;
+    background-size: cover;
+  }
+
+  bg-medium { background-color: gray;}
